@@ -114,7 +114,7 @@ export function Contact() {
               name="firstName"
               value={formData.firstName}
               onChange={handleChange}
-              placeholder="Tyler"
+              placeholder="Thao"
               type="text"
             />
           </LabelInputContainer>
@@ -125,7 +125,7 @@ export function Contact() {
               name="lastName"
               value={formData.lastName}
               onChange={handleChange}
-              placeholder="Durden"
+              placeholder="Dev"
               type="text"
             />
           </LabelInputContainer>

@@ -11,22 +11,19 @@ const people = [
     id: 1,
     name: "Hoc Nguyen",
     designation: "PM",
-    image:
-      "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3387&q=80",
+    image: "/images/avatar-hocnguyen.jpg",
   },
   {
     id: 2,
     name: "Thang Luong",
     designation: "Leader Web",
-    image:
-      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+    image: "/images/avatar-thang.png",
   },
   {
     id: 3,
     name: "Hau Dang",
     designation: "Leader Mobile",
-    image:
-      "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YXZhdGFyfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+    image: "/images/avatar-haudang.png",
   },
   {
     id: 4,
@@ -39,15 +36,13 @@ const people = [
     id: 5,
     name: "Cong Nam",
     designation: "App Developer",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
+    image: "/images/avatar-nam.jpg",
   },
   {
     id: 6,
     name: "Bin An",
     designation: "Web Developer",
-    image:
-      "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3534&q=80",
+    image: "/images/avatar-ken.jpg",
   },
 ];
 
@@ -110,12 +105,14 @@ const MainSection = () => {
             About Me
           </h2>
           <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-start mt-[20px]">
-            With over 1.5 years of experience in software development, I am
-            passionate about applying my expertise in .NET and C# to real-world
-            projects. I focus on improving and optimizing systems while
-            continuously striving for personal and professional growth.
-            Currently, I aim to achieve international certifications such as AWS
-            and GCPCA to enhance my skills and professional value.
+            With over a year of experience in software development, I am
+            passionate about leveraging my expertise in .NET and C# to deliver
+            impactful solutions for real-world challenges. My focus lies in
+            enhancing and optimizing systems to drive efficiency and innovation.
+            I am committed to continuous learning and personal growth, currently
+            pursuing international certifications such as AWS and Google Cloud
+            Professional Cloud Architect (GCPCA) to further enhance my technical
+            skills and professional value.
           </p>
 
           <Skills />

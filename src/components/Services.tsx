@@ -15,18 +15,19 @@ export function Services() {
   const features = [
     {
       title: "Font-End",
-      description: "Technologies: HTML5, CSS3, SCSS, Angular, Blazor.",
+      description:
+        "Technologies: HTML5, CSS3, SCSS, Angular, Blazor, Bootstrap.",
       icon: <IconTerminal2 />,
     },
     {
       title: "Back-End",
-      description: "Technologies: C#, Java Spring, ASP.NET Core",
+      description: "Technologies: C#, Java Spring, ASP.NET Core.",
       icon: <IconEaseInOut />,
     },
     {
-      title: "Frameworks",
+      title: "DevOps",
       description:
-        "Frameworks Used: Frontend: Angular, Blazor. Backend: .NET Core, Java Spring",
+        "Skills: Linux System Administration, Docker, Jenkins, CI/CD Pipelines.",
       icon: <IconCurrencyDollar />,
     },
     {
@@ -37,13 +38,13 @@ export function Services() {
     },
     {
       title: "Database",
-      description: "Technologies: SQL Server, MongoDB, PostgreSQL.",
+      description: "Technologies: SQL Server, MongoDB, MySQL.",
       icon: <IconDatabase />,
     },
     {
       title: "Tools",
       description:
-        "Development Tools: Visual Studio, IntelliJ IDEA, Visual Studio Code.",
+        "Development Tools: Visual Studio, IntelliJ IDEA, Visual Studio Code, Postman.",
       icon: <IconSettings />,
     },
     {
@@ -54,7 +55,7 @@ export function Services() {
     {
       title: "Other Skills",
       description:
-        "Technical Support: Providing ongoing technical support and training to clients.",
+        "Version Control: Proficient in Git, GitHub, and GitLab for collaboration and source control.",
       icon: <IconHelp />,
     },
   ];
