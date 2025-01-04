@@ -29,8 +29,7 @@ const people = [
     id: 4,
     name: "Van Huy",
     designation: "UX Designer",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGF2YXRhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+    image: "/images/avatar-1.png",
   },
   {
     id: 5,
@@ -105,14 +104,17 @@ const MainSection = () => {
             About Me
           </h2>
           <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-start mt-[20px]">
-            With over a year of experience in software development, I am
-            passionate about leveraging my expertise in .NET and C# to deliver
-            impactful solutions for real-world challenges. My focus lies in
-            enhancing and optimizing systems to drive efficiency and innovation.
-            I am committed to continuous learning and personal growth, currently
-            pursuing international certifications such as AWS and Google Cloud
-            Professional Cloud Architect (GCPCA) to further enhance my technical
-            skills and professional value.
+            With over a year of hands-on experience in software development, I
+            am dedicated to building robust and efficient solutions using .NET
+            and C#. My passion lies in optimizing systems, enhancing
+            performance, and addressing real-world challenges with innovative
+            approaches. Driven by a commitment to excellence and lifelong
+            learning, I am actively pursuing international certifications like
+            AWS Certified Solutions Architect and Google Cloud Professional
+            Cloud Architect (GCPCA) to expand my expertise in cloud technologies
+            and stay ahead in the ever-evolving tech landscape. I aim to
+            contribute meaningfully to a team that values innovation,
+            collaboration, and continuous improvement.
           </p>
 
           <Skills />

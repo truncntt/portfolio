@@ -55,7 +55,7 @@ export function Services() {
     {
       title: "Other Skills",
       description:
-        "Version Control: Proficient in Git, GitHub, and GitLab for collaboration and source control.",
+        "Version Control: Proficient in GitHub and GitLab for collaboration and source control.",
       icon: <IconHelp />,
     },
   ];
