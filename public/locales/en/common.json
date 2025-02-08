@@ -1,0 +1,166 @@
+{
+  "its_me": "It's Me",
+  "trun_coder": "Trun Coder",
+  "web_developer": "Web Developer",
+  "hire_me": "Hire Me",
+  "our_team_members": "Our Team Members",
+  "download_cv": "Download CV",
+  "about_me": "About Me",
+  "skills": "Skills",
+  "my_skills": "My Skills",
+  "about_skills": "Enhancing Your Projects with My Skills",
+  "about_me_description": "A software developer with over a year of experience in developing and optimizing systems, I focus on delivering efficient, scalable, and reliable solutions. With strong logical thinking, problem-solving skills, and a proactive mindset, I continuously learn new technologies to enhance my expertise and quickly adapt to real-world demands. Currently, I am expanding my skill set and pursuing international certifications to increase my value and contribute effectively to development teams.",
+  "frontend": "Technologies: HTML5, CSS3, SCSS, Javascript.",
+  "backend": "Language programs: C# .Net, Java Spring, PHP.",
+  "devops": "Skills: Linux System Administration, Docker, Jenkins, CI/CD Pipelines.",
+  "libraries": "Frontend: Bulma, TailwindCSS, Angular, Bootstrap. Backend: LINQ, Entity Framework, Spring Boot, ASP.NET Core.",
+  "database": "Technologies: SQL Server, MongoDB, MySQL.",
+  "tools": "Development Tools: Visual Studio, IntelliJ IDEA, Visual Studio Code, Postman.",
+  "design": "Tools & Technologies: Figma, Adobe XD, SCSS, Bulma.",
+  "other_skills": "Version Control: Proficient in GitHub and GitLab for collaboration and source control.",
+  "projects": {
+    "title": "Recent Projects",
+    "description": "Explore my featured projects"
+  },
+
+  "fastdo": {
+    "description1": "Fastdo Work is a user-friendly task and team management software designed to help businesses streamline workflows and enhance collaboration. The platform allows users to create, assign, and track tasks in real-time, with features like priority setting, deadline reminders, and seamless team communication. Document sharing and integrated updates ensure teams work efficiently without needing multiple tools.",
+    "description2": "With built-in performance reporting and analysis, Fastdo Work helps managers monitor progress and optimize processes effectively. Its integration with tools like Google Calendar and compatibility across devices make it a convenient choice for businesses looking to boost productivity and embrace digital transformation.",
+    "links": {
+      "fastdo": "FastDo",
+      "fastdo_work": "FastDo Work"
+    }
+  },
+
+  "shopping": {
+    "title": "Technology Shopping Website ",
+    "description": "Explore the world of technology with our leading tech shopping website. From electronic devices and smart accessories to the latest tech products, we offer a wide variety of high-quality items from trusted brands. With a user-friendly interface, fast search features, and attractive promotions, you can easily find and own your favorite products. Our fast delivery service and professional after-sales support ensure your satisfaction with every purchase.",
+    "github_link": "Link Github website"
+  },
+
+  "food_stores": {
+    "title": "Food Delivery Website",
+    "description": "Satisfy your hunger anytime, anywhere with our smart food delivery website. From delicious street food to premium dining experiences, we connect you to hundreds of reputable restaurants and eateries. With an easy-to-use interface and advanced location system, you can quickly find your favorite dishes, place orders conveniently, and have them delivered to your door in just a few minutes."
+  },
+
+  "travel": {
+    "title": "Travel Ticket Booking Website ",
+    "description": "Our travel ticket booking website is the perfect platform for planning your dream trips. With a user-friendly interface and thousands of options for flight tickets, train tickets, and hotel bookings worldwide, we bring convenience and speed at your fingertips. Plus, exciting deals and discounts are always available to help you save costs while enjoying the best travel experiences."
+  },
+
+  "food": {
+    "title": "Produce Shopping Website ",
+    "description": "We provide a high-quality online fresh produce shopping platform, ensuring safety and freshness for your family meals. Sourced directly from clean farms, you can easily choose seasonal, nutrient-rich vegetables and fruits. The website supports quick ordering, flexible payment, and doorstep delivery, saving you time while ensuring top-quality food products."
+  },
+
+  "resume": {
+    "education": "Education",
+    "university": "Duy Tan University",
+    "software_engineering": "Software Engineering program covered foundational and advanced topics, including algorithms, data structures, database management, web development, and object-oriented programming.",
+    "experiences": "Experiences",
+    "fullstack_csharp": "Fullstack C# Developer",
+    "fastdo": "FASTDO Work Management System",
+    "task_description": "Task Description",
+    "task_list": {
+      "task_1": "Developed and optimized key features for the FASTDO system including:",
+      "task_2": "Task management. User role management.",
+      "task_3": "System upgrades and bug fixes.",
+      "task_4": "Ensured thorough testing to eliminate source code errors."
+    },
+    "technologies_used": "Technologies Used",
+    "fastdo_tech_stack": {
+      "frontend": "Frontend: Blazor, Bluma.",
+      "backend": "Backend: ASP.NET Core, C#.",
+      "tools": "Tools: Visual Studio, GitHub, MongoDB."
+    },
+    "results": "Results",
+    "fastdo_results": {
+      "result_1": "Delivered a complete ticketing system with a user-friendly interface.",
+      "result_2": "Successfully integrated MoMo e-wallet payment, ensuring transaction security.",
+      "result_3": "Enhanced system performance and features to meet user requirements."
+    },
+    "fullstack_web": "Fullstack Web Developer",
+    "cinema": "Web - App Cinemas",
+    "cinema_task_list": {
+      "task_1": "Built an upgraded movie ticketing system with features such as: ",
+      "task_2": "Online ticket booking support.",
+      "task_3": "Integration of MoMo e-wallet payment."
+    },
+    "cinema_tech_stack": {
+      "frontend": "Frontend: Angular.",
+      "backend": "Backend: Java Spring.",
+      "methodology": "Methodology: Agile Scrum.",
+      "database": "Database: SQL Server.",
+      "tools": "Tools: IntelliJ IDEA, Git, PostgreSQL."
+    },
+    "cinema_results": {
+      "result_1": "Delivered a complete ticketing system with a user-friendly interface.",
+      "result_2": "Successfully integrated MoMo e-wallet payment, ensuring transaction security.",
+      "result_3": "Enhanced system performance and features to meet user requirements."
+    },
+    "web_developer": "Web Developer",
+    "farm_app": "Application Farm",
+    "farm_task_list": {
+      "task_1": "Developed an agricultural product sales management system with key functions:",
+      "task_2": "Managing agricultural product information.",
+      "task_3": "Tracking sales processes and processing orders.",
+      "task_4": "Ensuring strict testing to minimize source code errors."
+    },
+    "farm_tech_stack": {
+      "frontend": "Frontend: Angular.",
+      "database": "Database: SQL Server.",
+      "backend": "Backend: Java.",
+      "tools": "Tools: Visual Studio Code, GitHub, Postman."
+    },
+    "farm_results": {
+      "result_1": "Delivered a complete agricultural product sales management system with stable operation.",
+      "result_2": "Minimized development errors through rigorous testing processes.",
+      "result_3": "Designed an intuitive interface that effectively meets user requirements."
+    },
+    "certificates": "Certificates",
+    "devops_freshers": "DevOps for Freshers",
+    "devops_time": "12/2024",
+    "devops_content": {
+      "point_1": "Setting up and configuring CI/CD pipelines using Jenkins.",
+      "point_2": "Working with Docker: Creating, deploying, and managing containers.",
+      "point_3": "Utilizing Linux for system administration and DevOps operations.",
+      "point_4": "Implementing monitoring systems with tools like Prometheus and Grafana."
+    },
+    "gcp_cert": "Google Cloud Professional Cloud Architect (GCPCA)",
+    "gcp_status": "In preparation, expected completion by May 2025.",
+    "gcp_description": "Google Cloud Professional Cloud Architect (GCPCA): Intending to pursue the Google Cloud Professional Cloud Architect certification to broaden expertise in cloud architecture and Google Cloud Platform services.",
+    "aws_cert": "AWS Certified DevOps Engineer - Associate",
+    "aws_status": "Expected completion by December 2025.",
+    "aws_description": "AWS Certification: Planning to take the AWS certification exam by mid-2025 to enhance cloud system expertise."
+  },
+
+  "testimonials": {
+    "title": "Professional Evaluations",
+    "description": "Insights and evaluations from colleagues and supervisors about work performance and technical skills.",
+    "testimonial_1": "You are able to solve complex problems quickly and effectively. In your C# .NET projects, you ensure that applications run smoothly and meet client requirements.",
+    "testimonial_2": "Although your technical skills are great, sometimes you don't pay enough attention to documenting the code or providing guidance for colleagues. This can make it difficult to maintain or update the code in the future.",
+    "testimonial_3": "You are proactive in your work, have great teamwork skills, and can receive constructive feedback well. You always complete tasks on time and are able to work independently, especially when developing backend features.",
+    "testimonial_4": "At times, you may focus too much on technical solutions and overlook user experience in frontend projects. This can impact the overall effectiveness of the product.",
+    "testimonial_5": "You demonstrate professionalism and initiative in improving workflows. You pay great attention to code optimization, ensuring that the final product is of high quality and performs well."
+  },
+  "contact":{
+    "title_1": "Contact Information",
+    "title_2": "Lets Connect",
+    "description": "Feel free to reach out to me for job opportunities, collaborations, or networking!",
+    "firstname": "First name",
+    "lastname": "Last name",
+    "email_address":"Email Address",
+    "enter_your_message":"Enter Your Message",
+    "write_a_message":"Write a message...",
+    "submit": "Submit"
+  },
+    "navbar": {
+      "home": "Home",
+      "services": "Services",
+      "projects": "Projects",
+      "resume": "Resume",
+      "testimonial": "Testimonial",
+      "contact": "Contact",
+      "github": "GitHub"
+  }
+}

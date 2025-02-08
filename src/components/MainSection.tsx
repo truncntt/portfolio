@@ -1,4 +1,8 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
+import { useRouter } from "next/navigation";
 import { Skills } from "@/components/blocks/skills";
 import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
 import { Cover } from "@/components/ui/cover";
@@ -46,9 +50,24 @@ const people = [
 ];
 
 const MainSection = () => {
+  const { t, i18n } = useTranslation();
+  const router = useRouter();
+  const [isEnglish, setIsEnglish] = useState(i18n.language === "en");
+
+  // Hàm đổi ngôn ngữ
+  const toggleLanguage = () => {
+    const newLang = i18n.language === "en" ? "vi" : "en";
+    i18n.changeLanguage(newLang);
+    if (typeof window !== "undefined") {
+      localStorage.setItem("language", newLang); // Chỉ truy cập localStorage trên client
+    }
+    setIsEnglish(!isEnglish);
+    router.refresh(); // Làm mới trang để cập nhật ngôn ngữ
+  };
+
   return (
     <div>
-      <div className="w-full overflow-x-hidden-hidden min-h-screen grid lg:grid-cols-[1fr_0.6fr_0.4fr] gap-[20px] ">
+      <div className="w-full overflow-x-hidden min-h-screen grid lg:grid-cols-[1fr_0.6fr_0.4fr] gap-[20px]">
         <div className="max-w-[600px] w-[90%] mx-auto py-[30px]">
           <a href="/">
             <Image
@@ -57,26 +76,26 @@ const MainSection = () => {
               height={80}
               className="max-h-[80px] h-full object-contain object-center"
               alt="logo"
-            ></Image>
+            />
           </a>
           <div className="flex flex-col justify-center h-[80%]">
-            <span className="text-[#4e69e0] font-[600]">Its Me</span>
+            <span className="text-[#4e69e0] font-[600]">{t("its_me")}</span>
             <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight">
-              Trun Coder,
-              <br /> <Cover>Web Developer</Cover>
+              {t("trun_coder")},
+              <br /> <Cover>{t("web_developer")}</Cover>
             </h2>
             <a
               href="#"
               className="text-white border-b border-1 border-[#525252] hover:p-[10px] hover:bg-[#5070ff2f] transition-all ease-in-out mr-auto py-[10px] font-[600]"
             >
-              Hire Me &rarr;
+              {t("hire_me")} &rarr;
             </a>
 
             <div className="flex flex-row mt-[60px]">
-              <AnimatedTooltip items={people}></AnimatedTooltip>
+              <AnimatedTooltip items={people} />
             </div>
             <p className="max-w-xl text-[1rem] md:text-lg text-neutral-700 dark:text-neutral-400 text-start mt-[10px]">
-              Our Team Members
+              {t("our_team_members")}
             </p>
           </div>
         </div>
@@ -88,33 +107,42 @@ const MainSection = () => {
             height={1200}
             className="w-full max-h-[90vh] object-contain object-bottom rounded-2xl"
             alt="model"
-          ></Image>
+          />
         </div>
 
         <div className="w-[90%] mx-auto py-[30px] flex flex-col items-center z-2">
-          <a
-            className="max-w-[130px] w-full h-[40px] flex justify-center items-center border border-1 border-[#333333] text-white font-[600] rounded-[30px] mx-auto pb-[2px] bg-blue-700"
-            href="/template/CV_DEV_NET_NGUYENDUCTHAO.pdf"
-            download="CV_DEV_NET_NGUYENDUCTHAO.pdf"
-          >
-            Download CV
-          </a>
+          <div className="w-full flex items-center justify-center">
+            <a
+              className="max-w-[130px] w-full h-[40px] flex justify-center items-center border border-1 border-[#333333] text-white font-[600] rounded-[30px] mx-auto pb-[2px] bg-blue-700"
+              href="/template/CV_DEV_NET_NGUYENDUCTHAO.pdf"
+              download="CV_DEV_NET_NGUYENDUCTHAO.pdf"
+            >
+              {t("download_cv")}
+            </a>
+
+            {/* Chuyển đổi ngôn ngữ */}
+            <div className="btn-container btn-component">
+              <label className="switch btn-color-mode-switch">
+                <input
+                  type="checkbox"
+                  onChange={toggleLanguage}
+                  checked={isEnglish}
+                />
+                <label
+                  className="btn-color-mode-switch-inner"
+                  data-off="Vi"
+                  data-on="En"
+                  htmlFor="color_mode"
+                ></label>
+              </label>
+            </div>
+          </div>
 
           <h2 className="bg-clip-text mt-[100px] mr-auto text-transparent text-start bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-2xl lg:text-3xl font-sans relative z-20 font-bold tracking-tight">
-            About Me
+            {t("about_me")}
           </h2>
           <p className="max-w-xl mx-auto text-sm md:text-lg text-neutral-700 dark:text-neutral-400 text-start mt-[20px]">
-            With over a year of hands-on experience in software development, I
-            am dedicated to building robust and efficient solutions using .NET
-            and C#. My passion lies in optimizing systems, enhancing
-            performance, and addressing real-world challenges with innovative
-            approaches. Driven by a commitment to excellence and lifelong
-            learning, I am actively pursuing international certifications like
-            AWS Certified Solutions Architect and Google Cloud Professional
-            Cloud Architect (GCPCA) to expand my expertise in cloud technologies
-            and stay ahead in the ever-evolving tech landscape. I aim to
-            contribute meaningfully to a team that values innovation,
-            collaboration, and continuous improvement.
+            {t("about_me_description")}
           </p>
 
           <Skills />

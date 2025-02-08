@@ -1,9 +1,11 @@
 "use client";
+
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
 import { Label } from "./ui/label";
 import { Input } from "./ui/input";
 import { Cover } from "./ui/cover";
+import { useTranslation } from "react-i18next";
 
 export function Contact() {
   const [loadingMessage, setLoadingMessage] = useState({
@@ -88,14 +90,19 @@ export function Contact() {
     }
   };
 
+  const { t } = useTranslation();
+
   return (
     <div
       className="max-w-[800px] backdrop-blur-[18px] bg-[#11121617] w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black"
       id="contact"
     >
       <h2 className="font-bold text-4xl text-neutral-800 dark:text-neutral-200">
-        Do You Have A Project, <Cover>Lets Discus</Cover>
+        {t("contact.title_1")}, <Cover>{t("contact.title_2")}</Cover>
       </h2>
+      <p className="max-w-xl text-[1rem] text-neutral-700 dark:text-neutral-400 text-start mt-[20px]">
+        {t("contact.description")}
+      </p>
       {loadingMessage?.message && (
         <p
           className={`mt-[20px] text-[0.9rem] ${
@@ -108,7 +115,7 @@ export function Contact() {
       <form className="my-8" onSubmit={handleSubmit}>
         <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
           <LabelInputContainer>
-            <Label htmlFor="firstname">First name</Label>
+            <Label htmlFor="firstname">{t("contact.firstname")}</Label>
             <Input
               id="firstname"
               name="firstName"
@@ -119,7 +126,7 @@ export function Contact() {
             />
           </LabelInputContainer>
           <LabelInputContainer>
-            <Label htmlFor="lastname">Last name</Label>
+            <Label htmlFor="lastname">{t("contact.lastname")}</Label>
             <Input
               id="lastname"
               name="lastName"
@@ -131,7 +138,7 @@ export function Contact() {
           </LabelInputContainer>
         </div>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="email">Email Address</Label>
+          <Label htmlFor="email">{t("contact.email_address")}</Label>
           <Input
             id="email"
             name="email"
@@ -142,10 +149,10 @@ export function Contact() {
           />
         </LabelInputContainer>
         <LabelInputContainer className="mb-4">
-          <Label htmlFor="message">Enter Your Message</Label>
+          <Label htmlFor="message">{t("contact.enter_your_message")}</Label>
           <textarea
             id="message"
-            placeholder="Write a message..."
+            placeholder={t("contact.write_a_message")}
             name="message"
             value={formData.message}
             onChange={handleChange}
@@ -157,7 +164,7 @@ export function Contact() {
           className="bg-blue-900 relative group/btn block w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset]"
           type="submit"
         >
-          {!loadingMessage?.loading ? "Submit" : "...."}
+          {!loadingMessage?.loading ? t("contact.submit") : "...."}
           <BottomGradient />
         </button>
 

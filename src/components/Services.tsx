@@ -1,4 +1,7 @@
+"use client";
+
 import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
 import {
   IconBook,
   IconCurrencyDollar,
@@ -12,61 +15,59 @@ import {
 import { Cover } from "./ui/cover";
 
 export function Services() {
+  const { t } = useTranslation();
+
   const features = [
     {
       title: "Font-End",
-      description:
-        "Technologies: HTML5, CSS3, SCSS, Angular, Blazor, Bootstrap.",
+      description: t("frontend"),
       icon: <IconTerminal2 />,
     },
     {
       title: "Back-End",
-      description: "Technologies: C#, Java Spring, ASP.NET Core.",
+      description: t("backend"),
       icon: <IconEaseInOut />,
     },
     {
       title: "DevOps",
-      description:
-        "Skills: Linux System Administration, Docker, Jenkins, CI/CD Pipelines.",
+      description: t("devops"),
       icon: <IconCurrencyDollar />,
     },
     {
       title: "Libraries",
-      description:
-        "Frontend: Bulma, SCSS, jQuery. Backend: LINQ, Entity Framework, Spring Boot.",
+      description: t("libraries"),
       icon: <IconBook />,
     },
     {
       title: "Database",
-      description: "Technologies: SQL Server, MongoDB, MySQL.",
+      description: t("database"),
       icon: <IconDatabase />,
     },
     {
       title: "Tools",
-      description:
-        "Development Tools: Visual Studio, IntelliJ IDEA, Visual Studio Code, Postman.",
+      description: t("tools"),
       icon: <IconSettings />,
     },
     {
       title: "Design",
-      description: "Tools & Technologies: Figma, Adobe XD, SCSS, Bulma.",
+      description: t("design"),
       icon: <IconUvIndex />,
     },
     {
       title: "Other Skills",
-      description:
-        "Version Control: Proficient in GitHub and GitLab for collaboration and source control.",
+      description: t("other_skills"),
       icon: <IconHelp />,
     },
   ];
+
   return (
     <div className="mt-[150px] flex flex-col" id="services">
       <div className="px-8 flex flex-col justify-center items-center">
         <h2 className="mx-auto text-2xl md:text-4xl lg:text-5xl font-sans relative z-20 font-bold tracking-tight">
-          <Cover>Our Services</Cover>
+          <Cover>{t("my_skills")}</Cover>
         </h2>
         <p className="max-w-xl text-[1rem] text-neutral-700 dark:text-neutral-400 text-start mt-[20px]">
-          We Provide You Quality Of Services
+          {t("about_skills")}
         </p>
       </div>
       (

@@ -2,12 +2,14 @@
 import { animate, motion } from "framer-motion";
 import React, { useEffect } from "react";
 import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
 
 export function Skills() {
+  const { t } = useTranslation();
   return (
     <div className="flex flex-col mt-[100px] justify-center items-center">
       <h3 className="text-xl mb-[-50px] md:mb-[-100px] font-bold text-neutral-200">
-        Skills
+        {t("skills")}
       </h3>
       <CardSkeletonContainer>
         <Skeleton />

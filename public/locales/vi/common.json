@@ -1,0 +1,157 @@
+{
+  "its_me": "Tôi đây",
+  "trun_coder": "Trun Coder",
+  "web_developer": "Lập trình viên Web",
+  "hire_me": "Team tôi",
+  "our_team_members": "Thành viên nhóm của chúng tôi",
+  "download_cv": "Tải CV",
+  "about_me": "Về tôi",
+  "skills": "Kỹ năng",
+  "my_skills": "Kỹ năng của tôi",
+  "about_skills": "Nâng tầm dự án của bạn với kỹ năng của tôi",
+  "about_me_description": "Là một lập trình viên phần mềm với hơn một năm kinh nghiệm trong việc phát triển và tối ưu hóa hệ thống, tôi tập trung vào việc cung cấp các giải pháp hiệu quả, có khả năng mở rộng và đáng tin cậy. Với tư duy logic vững vàng, kỹ năng giải quyết vấn đề và tinh thần chủ động, tôi không ngừng học hỏi các công nghệ mới để nâng cao chuyên môn và nhanh chóng thích nghi với các yêu cầu thực tế. Hiện tại, tôi đang mở rộng bộ kỹ năng của mình và theo đuổi các chứng chỉ quốc tế để gia tăng giá trị bản thân cũng như đóng góp hiệu quả hơn cho các đội ngũ phát triển.",
+  "frontend": "Công nghệ: HTML5, CSS3, SCSS, Javascript.",
+  "backend": "Ngôn ngữ lập trình: C# .Net, Java Spring, PHP.",
+  "devops": "Kỹ năng: Quản trị hệ thống Linux, Docker, Jenkins, CI/CD Pipelines.",
+  "libraries": "Frontend: Bulma, TailwindCSS, Angular, Bootstrap. Backend: LINQ, Entity Framework, Spring Boot, ASP.NET Core.",
+  "database": "Công nghệ: SQL Server, MongoDB, MySQL.",
+  "tools": "Công cụ phát triển: Visual Studio, IntelliJ IDEA, Visual Studio Code, Postman.",
+  "design": "Công cụ & Công nghệ: Figma, Adobe XD, SCSS, Bulma.",
+  "other_skills": "Kiểm soát phiên bản: Thành thạo GitHub và GitLab để cộng tác và quản lý mã nguồn.",
+  "projects": {
+    "title": "Dự Án Gần Đây",
+    "description": "Khám phá các dự án nổi bật của tôi"
+  },
+  "fastdo": {
+    "description1": "Fastdo Work là một phần mềm quản lý công việc và nhóm thân thiện với người dùng, giúp doanh nghiệp tối ưu hóa quy trình làm việc và nâng cao sự hợp tác. Nền tảng này cho phép người dùng tạo, giao và theo dõi nhiệm vụ theo thời gian thực, với các tính năng như đặt mức độ ưu tiên, nhắc nhở thời hạn và giao tiếp nhóm liền mạch. Chia sẻ tài liệu và cập nhật tích hợp giúp nhóm làm việc hiệu quả mà không cần nhiều công cụ khác nhau.",
+    "description2": "Với các báo cáo hiệu suất và phân tích tích hợp, Fastdo Work giúp các nhà quản lý giám sát tiến độ và tối ưu hóa quy trình một cách hiệu quả. Khả năng tích hợp với các công cụ như Google Calendar và tương thích trên nhiều thiết bị khiến nó trở thành lựa chọn tiện lợi cho doanh nghiệp muốn nâng cao năng suất và đón nhận chuyển đổi số."
+  },
+  "shopping": {
+    "title": "Trang Web Mua Sắm Công Nghệ ",
+    "description": "Khám phá thế giới công nghệ với trang web mua sắm hàng đầu của chúng tôi. Từ các thiết bị điện tử và phụ kiện thông minh đến các sản phẩm công nghệ mới nhất, chúng tôi cung cấp nhiều mặt hàng chất lượng cao từ các thương hiệu đáng tin cậy. Với giao diện thân thiện, tính năng tìm kiếm nhanh và nhiều chương trình khuyến mãi hấp dẫn, bạn có thể dễ dàng tìm thấy và sở hữu sản phẩm yêu thích của mình. Dịch vụ giao hàng nhanh chóng và hỗ trợ sau bán hàng chuyên nghiệp đảm bảo sự hài lòng của bạn với mỗi lần mua sắm.",
+    "github_link": "Liên kết Github website"
+  },
+  "food_stores": {
+    "title": "Trang Web Giao Thức Ăn ",
+    "description": "Đáp ứng cơn đói của bạn mọi lúc, mọi nơi với trang web giao thức ăn thông minh của chúng tôi. Từ đồ ăn đường phố thơm ngon đến trải nghiệm ẩm thực cao cấp, chúng tôi kết nối bạn với hàng trăm nhà hàng và quán ăn uy tín. Với giao diện dễ sử dụng và hệ thống định vị tiên tiến, bạn có thể nhanh chóng tìm thấy món ăn yêu thích, đặt hàng tiện lợi và nhận hàng ngay tại nhà chỉ trong vài phút."
+  },
+  "travel": {
+    "title": "Trang Web Đặt Vé Du Lịch ",
+    "description": "Trang web đặt vé du lịch của chúng tôi là nền tảng hoàn hảo để lên kế hoạch cho những chuyến đi trong mơ của bạn. Với giao diện thân thiện và hàng ngàn lựa chọn vé máy bay, vé tàu và đặt phòng khách sạn trên toàn thế giới, chúng tôi mang đến sự tiện lợi và nhanh chóng trong tầm tay bạn. Hơn nữa, các ưu đãi và giảm giá hấp dẫn luôn sẵn có để giúp bạn tiết kiệm chi phí trong khi tận hưởng những trải nghiệm du lịch tuyệt vời nhất."
+  },
+  "food": {
+    "title": "Trang Web Mua Sắm Thực Phẩm Tươi Sống ",
+    "description": "Chúng tôi cung cấp nền tảng mua sắm thực phẩm tươi sống trực tuyến chất lượng cao, đảm bảo an toàn và tươi ngon cho bữa ăn gia đình bạn. Được thu hoạch trực tiếp từ các trang trại sạch, bạn có thể dễ dàng lựa chọn rau củ và trái cây theo mùa, giàu dinh dưỡng. Trang web hỗ trợ đặt hàng nhanh chóng, thanh toán linh hoạt và giao hàng tận nơi, giúp bạn tiết kiệm thời gian mà vẫn đảm bảo thực phẩm chất lượng."
+  },
+
+  "resume": {
+    "education": "Học vấn",
+    "university": "Đại học Duy Tân",
+    "software_engineering": "Chương trình Kỹ thuật Phần mềm bao gồm các chủ đề cơ bản và nâng cao như thuật toán, cấu trúc dữ liệu, quản lý cơ sở dữ liệu, phát triển web và lập trình hướng đối tượng.",
+    "experiences": "Kinh nghiệm",
+    "fullstack_csharp": "Lập trình viên Fullstack C#",
+    "fastdo": "Hệ thống Quản lý Công việc FASTDO",
+    "task_description": "Mô tả công việc",
+    "task_list": {
+      "task_1": "Phát triển và tối ưu hóa các tính năng chính cho hệ thống FASTDO bao gồm:",
+      "task_2": "Quản lý công việc. Quản lý vai trò người dùng.",
+      "task_3": "Nâng cấp hệ thống và sửa lỗi.",
+      "task_4": "Đảm bảo kiểm thử kỹ lưỡng để loại bỏ lỗi trong mã nguồn."
+    },
+    "technologies_used": "Công nghệ sử dụng",
+    "fastdo_tech_stack": {
+      "frontend": "Frontend: Blazor, Bluma.",
+      "backend": "Backend: ASP.NET Core, C#.",
+      "tools": "Công cụ: Visual Studio, GitHub, MongoDB."
+    },
+    "results": "Kết quả",
+    "fastdo_results": {
+      "result_1": "Triển khai hệ thống quản lý công việc hoàn chỉnh với giao diện thân thiện.",
+      "result_2": "Tích hợp thành công các báo cáo hiệu suất, giúp giám sát tiến độ và tối ưu quy trình.",
+      "result_3": "Cải thiện hiệu suất hệ thống và đáp ứng nhu cầu của người dùng."
+    },
+    "fullstack_web": "Lập trình viên Fullstack Web",
+
+    "cinema": "Ứng dụng đặt vé phim",
+    "cinema_task_list": {
+      "task_1": "Xây dựng hệ thống đặt vé phim nâng cấp với các tính năng như:",
+      "task_2": "Hỗ trợ đặt vé trực tuyến.",
+      "task_3": "Tích hợp thanh toán qua ví điện tử MoMo."
+    },
+    "cinema_tech_stack": {
+      "frontend": "Frontend: Angular.",
+      "backend": "Backend: Java Spring.",
+      "methodology": "Phương pháp: Agile Scrum.",
+      "database": "Cơ sở dữ liệu: SQL Server.",
+      "tools": "Công cụ: IntelliJ IDEA, Git, PostgreSQL."
+    },
+    "cinema_results": {
+      "result_1": "Triển khai hệ thống đặt vé phim hoàn chỉnh với giao diện thân thiện.",
+      "result_2": "Tích hợp thành công thanh toán qua ví MoMo, đảm bảo an toàn giao dịch.",
+      "result_3": "Nâng cao hiệu suất hệ thống và tính năng để đáp ứng yêu cầu người dùng."
+    },
+    "web_developer": "Web Developer",
+    "farm_app": "Application Farm",
+    "farm_task_list": {
+      "task_1": "Phát triển hệ thống quản lý bán hàng nông sản với các chức năng chính:",
+      "task_2": "Quản lý thông tin sản phẩm nông sản.",
+      "task_3": "Theo dõi quy trình bán hàng và xử lý đơn hàng.",
+      "task_4": "Đảm bảo kiểm thử nghiêm ngặt để giảm thiểu lỗi trong mã nguồn."
+    },
+    "farm_tech_stack": {
+      "frontend": "Frontend: Angular.",
+      "database": "Database: SQL Server.",
+      "backend": "Backend: Java.",
+      "tools": "Tools: Visual Studio Code, GitHub, Postman."
+    },
+    "farm_results": {
+      "result_1": "Phát triển hệ thống quản lý bán hàng nông sản hoàn chỉnh với hoạt động ổn định.",
+      "result_2": "Giảm thiểu lỗi phát triển thông qua quy trình kiểm thử nghiêm ngặt.",
+      "result_3": "Thiết kế giao diện trực quan, đáp ứng hiệu quả nhu cầu người dùng."
+    },
+    "certificates": "Chứng chỉ",
+    "devops_freshers": "DevOps for Freshers",
+    "devops_time": "12/2024",
+    "devops_content": {
+      "point_1": "Thiết lập và cấu hình CI/CD pipeline bằng Jenkins.",
+      "point_2": "Làm việc với Docker: Tạo, triển khai và quản lý container.",
+      "point_3": "Sử dụng Linux cho quản trị hệ thống và vận hành DevOps.",
+      "point_4": "Triển khai hệ thống giám sát với các công cụ như Prometheus và Grafana."
+    },
+    "gcp_cert": "Google Cloud Professional Cloud Architect (GCPCA)",
+    "gcp_status": "Đang chuẩn bị, dự kiến hoàn thành vào tháng 5/2025.",
+    "gcp_description": "Google Cloud Professional Cloud Architect (GCPCA): Dự định theo đuổi chứng chỉ Google Cloud Professional Cloud Architect để mở rộng chuyên môn về kiến trúc đám mây và các dịch vụ trên nền tảng Google Cloud.",
+    "aws_cert": "AWS Certified DevOps Engineer - Associate",
+    "aws_status": "Dự kiến hoàn thành vào tháng 12/2025.",
+    "aws_description": "Chứng chỉ AWS: Dự định tham gia kỳ thi chứng chỉ AWS vào giữa năm 2025 để nâng cao chuyên môn về hệ thống đám mây."
+  },
+  "testimonials": {
+    "title": "Đánh giá chuyên môn",
+    "description": "Những đánh giá và nhận xét từ đồng nghiệp và cấp trên về hiệu suất làm việc và kỹ năng kỹ thuật.",
+    "testimonial_1": "Bạn có khả năng giải quyết các vấn đề phức tạp một cách nhanh chóng và hiệu quả. Trong các dự án C# .NET của bạn, bạn đảm bảo rằng ứng dụng chạy mượt mà và đáp ứng yêu cầu của khách hàng.",
+    "testimonial_2": "Mặc dù kỹ năng kỹ thuật của bạn rất tốt, đôi khi bạn không chú ý đủ đến việc viết tài liệu hoặc hướng dẫn đồng nghiệp. Điều này có thể gây khó khăn trong việc bảo trì hoặc cập nhật mã nguồn trong tương lai.",
+    "testimonial_3": "Bạn chủ động trong công việc, có kỹ năng làm việc nhóm tốt và tiếp nhận phản hồi mang tính xây dựng một cách hiệu quả. Bạn luôn hoàn thành nhiệm vụ đúng hạn và có thể làm việc độc lập, đặc biệt là khi phát triển các tính năng backend.",
+    "testimonial_4": "Đôi khi, bạn có thể quá tập trung vào các giải pháp kỹ thuật mà bỏ qua trải nghiệm người dùng trong các dự án frontend. Điều này có thể ảnh hưởng đến hiệu quả tổng thể của sản phẩm.",
+    "testimonial_5": "Bạn thể hiện sự chuyên nghiệp và chủ động trong việc cải thiện quy trình làm việc. Bạn rất chú trọng đến tối ưu hóa mã nguồn, đảm bảo sản phẩm cuối cùng có chất lượng cao và hoạt động hiệu quả."
+  },
+    "contact":{
+      "title_1": "Thông tin liên hệ",
+      "title_2": "Kết nối với tôi",
+      "description": "Hãy liên hệ với tôi nếu bạn có cơ hội việc làm, muốn hợp tác hoặc kết nối!",
+      "firstname": "Tên",
+      "lastname": "Họ",
+      "email_address":"Địa chỉ Email",
+      "enter_your_message":"Lời nhắn của bạn",
+      "write_a_message":"Viết một tin nhắn...",
+      "submit": "Gửi"
+  },
+    "navbar": {
+      "home": "Trang chủ",
+      "services": "Dịch vụ",
+      "projects": "Dự án",
+      "resume": "Hồ sơ",
+      "testimonial": "Nhận xét",
+      "contact": "Liên hệ",
+      "github": "GitHub"
+    }
+}

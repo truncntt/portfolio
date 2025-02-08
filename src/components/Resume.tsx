@@ -1,64 +1,72 @@
+"use client";
+
 import React from "react";
 import { Timeline } from "@/components/ui/timeline";
 import { Cover } from "./ui/cover";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 export function Resume() {
+  const { t } = useTranslation();
+
   const data = [
     {
-      title: "Education",
+      title: t("resume.education"),
       content: (
         <div className="flex flex-col gap-[30px]">
           <div>
             <h4 className="text-[#f4f4f4] text-[1.8rem] font-[600]">
-              <Cover>Duy Tan University</Cover>
+              <Cover>{t("resume.university")}</Cover>
             </h4>
             <span className="text-blue-400 my-[15px]">8/2018 - 8/2023</span>
             <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
               GPA: 3.10/4.0
             </p>
             <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              Software Engineering program covered foundational and advanced
-              topics, including algorithms, data structures, database
-              management, web development, and object-oriented programming.
+              {t("resume.software_engineering")}
             </p>
           </div>
         </div>
       ),
     },
     {
-      title: "Experiences",
+      title: t("resume.experiences"),
       content: (
         <div className="flex flex-col gap-[30px]">
           <div>
             <h4 className="text-[#f4f4f4] text-[1.8rem] font-[600]">
-              <Cover>Fullstack C# Developer</Cover>
+              <Cover>{t("resume.fullstack_csharp")}</Cover>
             </h4>
             <span className="text-blue-700 my-[15px]">8/2023 - 10/2024</span>
             <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              FASTDO Work Management System
+              {t("resume.fastdo")}
             </p>
-            <span className="text-blue-400 my-[15px]">Task Description</span>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              Developed and optimized key features for the FASTDO system
-              including: <br />- Task management. User role management. <br />-
-              System upgrades and bug fixes. <br />- Ensured thorough testing to
-              eliminate source code errors.
-            </p>
-            <span className="text-blue-400 my-[15px]">Technologies Used</span>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              - Frontend: Blazor, Bluma. <br />
-              - Backend: ASP.NET Core, C#. <br />- Tools: Visual Studio, GitHub,
-              MongoDB
-            </p>
-            <span className="text-blue-400 my-[15px]">Results</span>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              - Delivered a complete ticketing system with a user-friendly
-              interface. <br />
-              - Successfully integrated MoMo e-wallet payment, ensuring
-              transaction security. <br />- Enhanced system performance and
-              features to meet user requirements.
-            </p>
+            <span className="text-blue-400 my-[15px]">
+              {t("resume.task_description")}
+            </span>
+            <ul className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 list-disc pl-5">
+              <li>{t("resume.task_list.task_1")}</li>
+              <li>{t("resume.task_list.task_2")}</li>
+              <li>{t("resume.task_list.task_3")}</li>
+              <li>{t("resume.task_list.task_4")}</li>
+            </ul>
+            <span className="text-blue-400 my-[15px]">
+              {t("resume.technologies_used")}
+            </span>
+            <ul className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 list-disc pl-5">
+              <li>{t("resume.fastdo_tech_stack.frontend")}</li>
+              <li>{t("resume.fastdo_tech_stack.backend")}</li>
+              <li>{t("resume.fastdo_tech_stack.tools")}</li>
+            </ul>
+            <span className="text-blue-400 my-[15px]">
+              {t("resume.results")}
+            </span>
+            <ul className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 list-disc pl-5">
+              <li>{t("resume.fastdo_results.result_1")}</li>
+              <li>{t("resume.fastdo_results.result_2")}</li>
+              <li>{t("resume.fastdo_results.result_3")}</li>
+            </ul>
+
             <div className="grid grid-cols-2 gap-4">
               <Image
                 src="/images/fastdo_1.PNG"
@@ -92,85 +100,92 @@ export function Resume() {
           </div>
           <div>
             <h4 className="text-[#f4f4f4] text-[1.8rem] font-[600]">
-              <Cover>Fullstack Web Developer</Cover>
+              <Cover>{t("resume.fullstack_web")}</Cover>
             </h4>
             <span className="text-blue-400 my-[15px]">2023 - 2024</span>
             <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              Web - App Cinemas
+              {t("resume.cinema")}
             </p>
-            <span className="text-blue-400 my-[15px]">Task Description</span>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              Built an upgraded movie ticketing system with features such
-              as:Online ticket booking support.Integration of MoMo e-wallet
-              payment.
-            </p>
-            <span className="text-blue-400 my-[15px]">Technologies Used</span>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              - Frontend: Angular. <br />
-              - Backend: Java Spring <br />
-              - Methodology: Agile Scrum. <br />
-              - Database: SQL Server. <br />- Tools: IntelliJ IDEA, Git,
-              PostgreSQL.
-            </p>
-            <span className="text-blue-400 my-[15px]">Results</span>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              - Delivered a complete ticketing system with a user-friendly
-              interface. <br />
-              - Successfully integrated MoMo e-wallet payment, ensuring
-              transaction security.
-              <br />- Enhanced system performance and features to meet user
-              requirements.
-            </p>
+            <span className="text-blue-400 my-[15px]">
+              {t("resume.task_description")}
+            </span>
+            <ul className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 list-disc pl-5">
+              <li>{t("resume.cinema_task_list.task_1")}</li>
+              <li>{t("resume.cinema_task_list.task_2")}</li>
+              <li>{t("resume.cinema_task_list.task_3")}</li>
+            </ul>
+            <span className="text-blue-400 my-[15px]">
+              {t("resume.technologies_used")}
+            </span>
+            <ul className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 list-disc pl-5">
+              <li>{t("resume.cinema_tech_stack.frontend")}</li>
+              <li>{t("resume.cinema_tech_stack.backend")}</li>
+              <li>{t("resume.cinema_tech_stack.methodology")}</li>
+              <li>{t("resume.cinema_tech_stack.database")}</li>
+              <li>{t("resume.cinema_tech_stack.tools")}</li>
+            </ul>
+            <span className="text-blue-400 my-[15px]">
+              {t("resume.results")}
+            </span>
+            <ul className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 list-disc pl-5">
+              <li>{t("resume.cinema_results.result_1")}</li>
+              <li>{t("resume.cinema_results.result_2")}</li>
+              <li>{t("resume.cinema_results.result_3")}</li>
+            </ul>
           </div>
           <div>
             <h4 className="text-[#f4f4f4] text-[1.8rem] font-[600]">
-              <Cover>Web Developer</Cover>
+              <Cover>{t("resume.web_developer")}</Cover>
             </h4>
             <span className="text-blue-400 my-[15px]">2023 - 2024</span>
             <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              Application Farm
+              {t("resume.farm_app")}
             </p>
-            <span className="text-blue-400 my-[15px]">Task Description</span>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              - Developed an agricultural product sales management system with
-              key functions: <br />- Managing agricultural product information.
-              <br />- Tracking sales processes and processing orders. <br />-
-              Ensuring strict testing to minimize source code errors.
-            </p>
-            <span className="text-blue-400 my-[15px]">Technologies Used</span>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              - Frontend: Angular. <br />
-              - Database: SQL Server. <br />
-              - Backend: Java. <br />- Tools: Visual Studio Code, GitHub,
-              Postman.
-            </p>
-            <span className="text-blue-400 my-[15px]">Results</span>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              - Delivered a complete agricultural product sales management
-              system with stable operation. <br />- Minimized development errors
-              through rigorous testing processes. <br />- Designed an intuitive
-              interface that effectively meets user requirements.
-            </p>
+            <span className="text-blue-400 my-[15px]">
+              {t("resume.task_description")}
+            </span>
+            <ul className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 list-disc pl-5">
+              <li>{t("resume.farm_task_list.task_1")}</li>
+              <li>{t("resume.farm_task_list.task_2")}</li>
+              <li>{t("resume.farm_task_list.task_3")}</li>
+              <li>{t("resume.farm_task_list.task_4")}</li>
+            </ul>
+            <span className="text-blue-400 my-[15px]">
+              {t("resume.technologies_used")}
+            </span>
+            <ul className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 list-disc pl-5">
+              <li>{t("resume.farm_tech_stack.frontend")}</li>
+              <li>{t("resume.farm_tech_stack.backend")}</li>
+              <li>{t("resume.farm_tech_stack.database")}</li>
+              <li>{t("resume.farm_tech_stack.tools")}</li>
+            </ul>
+            <span className="text-blue-400 my-[15px]">
+              {t("resume.results")}
+            </span>
+            <ul className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 list-disc pl-5">
+              <li>{t("resume.farm_results.result_1")}</li>
+              <li>{t("resume.farm_results.result_2")}</li>
+              <li>{t("resume.farm_results.result_3")}</li>
+            </ul>
           </div>
         </div>
       ),
     },
     {
-      title: "Certificates",
+      title: t("resume.certificates"),
       content: (
         <div className="flex flex-col gap-[30px]">
           <div>
             <h4 className="text-[#f4f4f4] text-[1.8rem] font-[600]">
-              <Cover>DevOps for Freshers</Cover>
+              <Cover>{t("resume.devops_freshers")}</Cover>
             </h4>
             <span className="text-blue-400 my-[15px]">12/2024</span>
-            <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              - Setting up and configuring CI/CD pipelines using Jenkins. <br />
-              - Working with Docker: Creating, deploying, and managing
-              containers. <br />- Utilizing Linux for system administration and
-              DevOps operations. <br />- Implementing monitoring systems with
-              tools like Prometheus and Grafana.
-            </p>
+            <ul className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8 list-disc pl-5">
+              <li>{t("resume.devops_content.point_1")}</li>
+              <li>{t("resume.devops_content.point_2")}</li>
+              <li>{t("resume.devops_content.point_3")}</li>
+              <li>{t("resume.devops_content.point_4")}</li>
+            </ul>
             <div className="grid grid-cols-2 gap-4">
               <Image
                 src="/images/certificate-devops.jpg"
@@ -183,29 +198,24 @@ export function Resume() {
           </div>
           <div>
             <h4 className="text-[#f4f4f4] text-[1.8rem] font-[600]">
-              <Cover>Google Cloud Professional Cloud Architect (GCPCA)</Cover>
+              <Cover>{t("resume.gcp_cert")}</Cover>
             </h4>
             <span className="text-blue-400 my-[15px]">
-              {" "}
-              In preparation, expected completion by February 2025.
+              {t("resume.gcp_status")}
             </span>
             <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              Google Cloud Professional Cloud Architect (GCPCA): Intending to
-              pursue the Google Cloud Professional Cloud Architect certification
-              to broaden expertise in cloud architecture and Google Cloud
-              Platform services.
+              {t("resume.gcp_description")}
             </p>
           </div>
           <div>
             <h4 className="text-[#f4f4f4] text-[1.8rem] font-[600]">
-              <Cover>AWS Certified DevOps Engineer - Associate</Cover>
+              <Cover>{t("resume.aws_cert")}</Cover>
             </h4>
             <span className="text-blue-400 my-[15px]">
-              Expected completion by June 2025.
+              {t("resume.aws_status")}
             </span>
             <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              AWS Certification: Planning to take the AWS certification exam by
-              mid-2025 to enhance cloud system expertise.
+              {t("resume.aws_description")}
             </p>
           </div>
         </div>
