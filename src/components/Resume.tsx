@@ -20,7 +20,7 @@ export function Resume() {
             </h4>
             <span className="text-blue-400 my-[15px]">8/2018 - 8/2023</span>
             <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
-              GPA: 3.10/4.0
+              GPA: 3.15/4.0
             </p>
             <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
               {t("resume.software_engineering")}
@@ -37,7 +37,7 @@ export function Resume() {
             <h4 className="text-[#f4f4f4] text-[1.8rem] font-[600]">
               <Cover>{t("resume.fullstack_csharp")}</Cover>
             </h4>
-            <span className="text-blue-700 my-[15px]">8/2023 - 10/2024</span>
+            <span className="text-blue-700 my-[15px]">8/2023 - 12/2024</span>
             <p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
               {t("resume.fastdo")}
             </p>
